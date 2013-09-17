@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jp.co.test</groupId>
-  <artifactId>iotest</artifactId>
+  <artifactId>orderbook</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Project - iotest</name>
+  <name>Project - orderbook</name>
   <url>http://maven.apache.org</url>
 
   <parent>
@@ -89,6 +89,11 @@
     </dependency>
     -->
 
+    <dependency>
+      <groupId>jp.co.test</groupId>
+      <artifactId>orderbook-core</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
